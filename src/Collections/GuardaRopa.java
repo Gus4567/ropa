@@ -4,20 +4,21 @@ import java.util.HashMap;
 
 public class GuardaRopa {
 
-     private int count= 0;
-     private HashMap<Integer, List> Prendas= new HashMap<Integer, List>();
+     int count= 0;
+     HashMap<Integer, List>  lista= new HashMap<>();
 
 
-    /*public Integer guardarPrendas(List<Prenda> listaDePrenda){
+    public Integer guardarPrendas(List<Prenda> listaDePrenda){
+         count++;
+         lista.put(count, listaDePrenda);
+         return count;
+    }
+
+    public void mostrarPrendas(){
 
 
 
-    }*/
-
-    /*public void mostrarPrendas(){
-
-
-    }*/
+    }
 
     /*public List<Prenda> devolverPrendas(Integer numero){
         return 1;
