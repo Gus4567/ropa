@@ -1,6 +1,7 @@
 package Collections;
 import java.util.List;
 import java.util.HashMap;
+import java.util.Map;
 
 public class GuardaRopa {
 
@@ -15,7 +16,7 @@ public class GuardaRopa {
     }
 
     public void mostrarPrendas(){
-
+         lista.forEach((k, v) -> System.out.println("numero: " + k + " prenda: " + v));
 
 
     }

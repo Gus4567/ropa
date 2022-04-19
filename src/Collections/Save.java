@@ -11,6 +11,10 @@ public class Save {
         ArrayList<Prenda> prendas = new ArrayList<>();
         prendas.add(vestido);
         System.out.println(prendas);
+        GuardaRopa listaDeRopa = new GuardaRopa();
+        listaDeRopa.guardarPrendas(prendas);
+        listaDeRopa.mostrarPrendas();
+
 
     }
 }
